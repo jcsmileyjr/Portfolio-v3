@@ -10,7 +10,7 @@ const Portfolio = () => {
 	return(
 		<Container fluid className="container-fluid">
 			<Header />
-			<Row>
+			<Row className="fixRow">
 				<Col sm={4}><Skills /></Col>
 				<Col sm={8}><ProjectSection /></Col>
 			</Row>
