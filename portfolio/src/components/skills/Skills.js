@@ -3,12 +3,14 @@ import {Container, Row, Col, Image} from 'react-bootstrap';
 import './skills.scss'
 
 import HeadShot from '../../assets/personal/meetup-head-shot-small.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 const languages = ["JavaScript", "HTML5", "CSS3", "Java", "Python"];
 const frameworks = ["ReactJS", "React Native", "Angular", "AngularJS", "Node/Expres", "Spring Boot", "Boostrap"];
 
 const DisplaySkills = (props) => {
 	return(
-		<div>{props.text}</div>
+		<div><FontAwesomeIcon icon={faCheck} className="check-icon-style" />{props.text}</div>
 	); 
 }
 
@@ -17,54 +19,49 @@ const Skills = () => {
 		<Container fluid>
 			{/*My personal head shot */}
 			<Row>
-				<Col xs={{span:6,offset:3}} className="test-space-B">
+				<Col xs={{span:6,offset:3}} className="center-content">
 					<Image src={HeadShot} className="image-style" />
 				</Col>
 			</Row>
+			
 			{/*My Name */}
 			<Row>
 				<Col className="center-content">
 					<p className="portfolio-name-style">JC Smiley Jr.</p>
 				</Col>
 			</Row>
+
 			{/*Personal Titles */}
 			<Row className="center-content">
 				<Col sm={12}>Software Developer</Col>
 				<Col xs={{span:2,offset:5}} sm={{span:3,offset:4}} md={{span:3,offset:5}} className="separator-bar"></Col>	
 				<Col sm={12}>Tech Meetup Organizer</Col>		
 			</Row>
-
-			{/*Skills: Languages */}
-			<Row>
-				<Col xs={{span:6,offset:3}} className="">
+			
+			<Row className="white-space-above">
+				{/*Skills: Languages */}
+				<Col xs={6} sm={{span:6,offset:3}} className="white-space-below">
 					<h5>Languages</h5>
 					{
 						languages.map((language) => {
 							return(
 								<DisplaySkills text={language} />
-							);
-						
+							);						
 						})
 					}
-
-				</Col>	
-			</Row>
-			{/*Skills: Frameworks */}
-			<Row>
-				<Col xs={{span:6,offset:3}} className="">
+				</Col>
+				{/*Skills: Frameworks */}
+				<Col xs={6} sm={{span:6,offset:3}} className="">
 					<h5>Framework</h5>
 					{
 						frameworks.map((framework) => {
 							return(
 								<DisplaySkills text={framework} />
-							);
-						
+							);						
 						})
 					}
-
 				</Col>	
-			</Row>			
-			
+			</Row>
 		</Container>
 	);
 }

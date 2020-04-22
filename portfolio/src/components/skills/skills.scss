@@ -19,6 +19,14 @@
 	text-align: center;
 }
 
+.white-space-above {
+	margin-top: 20px;	
+}
+
+.white-space-below {
+	margin-bottom: 20px;
+}
+
 /*style my name below the my picture*/
 .portfolio-name-style {
 	font-weight: bold;
@@ -29,4 +37,10 @@
 /*black horizontal bar between title below image*/
 .separator-bar {
 	border: 1px black solid;
+}
+
+/*Style the fontawesome check icon alongside each skill*/
+.check-icon-style {
+	color:green;
+	margin-right: 10px;
 }
