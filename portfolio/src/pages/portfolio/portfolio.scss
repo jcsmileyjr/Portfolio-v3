@@ -5,3 +5,10 @@
 	padding-left:0px;
 	padding-right: 0px;
 }
+
+/*Bug where row over-extend the container to create 
+unwanted white space on far right side*/
+.fixRow {
+	margin-left:0px !important;
+	margin-right: 0px !important;	
+}

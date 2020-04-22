@@ -1,0 +1,46 @@
+.test-space-A {
+	text-align: center;
+	background-color: pink;
+}
+
+.test-space-B {
+	text-align: center;
+	background-color: beige;
+}
+
+/*Style the image of me*/
+.image-style {
+	max-height: 30vh;
+	max-width: 20vw;
+}
+
+/*center content in a row*/
+.center-content {
+	text-align: center;
+}
+
+.white-space-above {
+	margin-top: 20px;	
+}
+
+.white-space-below {
+	margin-bottom: 20px;
+}
+
+/*style my name below the my picture*/
+.portfolio-name-style {
+	font-weight: bold;
+	font-size:2.5vw;
+	text-align: center;
+}
+
+/*black horizontal bar between title below image*/
+.separator-bar {
+	border: 1px black solid;
+}
+
+/*Style the fontawesome check icon alongside each skill*/
+.check-icon-style {
+	color:green;
+	margin-right: 10px;
+}
