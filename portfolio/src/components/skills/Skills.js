@@ -34,7 +34,7 @@ const Skills = () => {
 			{/*Personal Titles */}
 			<Row className="center-content">
 				<Col sm={12}>Software Developer</Col>
-				<Col xs={{span:2,offset:5}} sm={{span:3,offset:4}} md={{span:3,offset:5}} className="separator-bar"></Col>	
+				<Col xs={{span:2,offset:5}} sm={{span:3,offset:4}} md={{span:2,offset:5}} lg={{span:2, offset:5}} className="separator-bar"></Col>	
 				<Col sm={12}>Tech Meetup Organizer</Col>		
 			</Row>
 			
