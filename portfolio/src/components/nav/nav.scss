@@ -1,0 +1,26 @@
+@import '../../App';/*import global CSS styles*/
+
+.nav-container {
+	background-color: $primary-light-blue-color;/*set the nav background color*/
+}
+
+/*Style the app logo*/
+.logo {
+	height: 3rem;
+	width: 3rem;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left: 10vw;/*Add white-space to the left side of the logo*/
+}
+
+.nav-links-container-style {
+	text-align: center;/*center the nav links when the navbar is collaspe*/
+}
+
+.nav-links-text-style {
+	color:white !important;/*overide bootstrap nav link text color*/
+}
+
+.nav-links {
+	margin-right: 3vw;/*add space to the right side of the navigational linkes*/
+}
