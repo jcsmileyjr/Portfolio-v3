@@ -4,7 +4,7 @@ import './portfolio.scss';
 
 import Header from '../../components/nav/Header.js';
 import Skills from '../../components/skills/Skills.js';
-import ProjectSection from '../../components/project-section/ProjectecSection.js';
+import ProjectSection from '../../components/project-section/ProjectSection.js';
 
 const Portfolio = () => {
 	return(
