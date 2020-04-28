@@ -7,15 +7,29 @@ import coderBoy from '../../assets/personal/africanmanpc.png';
 
 const Project = (props) => {
 	return(
-		<Col>
-			<Image src={HeadShot} className="image-style" />
+		<Col className="project-container">
+			<Image src={HeadShot} className="project-image-style" fluid />
 			<p>Title</p>
 			<p>Description</p>
-			<div>
-				<Image src={coderBoy} fluid className="logo"/>
-				<Image src={coderBoy} fluid className="logo"/>
+			<div className="project-display-tech">
+				<section className="tech-image-style">
+					<Image src={coderBoy} fluid />
+					<p>Tech</p>
+				</section>
+				<section className="tech-image-style">
+					<Image src={coderBoy} fluid />
+					<p>Tech</p>
+				</section>
+				<section className="tech-image-style">
+					<Image src={coderBoy} fluid />
+					<p>Tech</p>
+				</section>
+				<section className="tech-image-style">
+					<Image src={coderBoy} fluid />
+					<p>Tech</p>
+				</section>
 			</div>
-			<div>
+			<div className="project-links-container">
 				<a href="">GitHub</a>
 				<a href="">Demo</a>
 			</div>
