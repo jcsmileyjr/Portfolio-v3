@@ -8,10 +8,10 @@ import coderBoy from '../../assets/personal/africanmanpc.png';
 const Project = (props) => {
 	return(
 		<Col className="project-container">			
-			<Image src={HeadShot} className="img-fluid" responsive />			
-			<p>Title</p>
-			<p>Description</p>
-			<div className="project-display-tech">
+			<Image src={HeadShot} className="img-fluid image-white-space" responsive />			
+			<p className="whitespace">Title</p>
+			<p className="whitespace">Description</p>
+			<div className="project-display-tech whitespace">
 				<section className="tech-image-style">
 					<Image src={coderBoy} fluid />
 					<p>Tech</p>
@@ -29,7 +29,7 @@ const Project = (props) => {
 					<p>Tech</p>
 				</section>
 			</div>
-			<div className="project-links-container">
+			<div className="project-links-container whitespace">
 				<a href="">GitHub</a>
 				<a href="">Demo</a>
 			</div>

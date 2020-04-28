@@ -1,13 +1,14 @@
 
 .project-container {
     margin: 1vh;
-    border: solid 1px grey;
+    border: solid 1px lightgrey;
+    padding-left:0px;
+    padding-right: 0px;
 }
 
 
 .tech-image-style {
     flex: 1;
-    padding:.5vw;
 }
 
 .project-display-tech {
@@ -20,4 +21,13 @@
     display:flex;
     justify-content: space-between;
     margin-bottom: 2vh;
+}
+
+.whitespace {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.image-white-space {
+    margin-bottom: 1vh;
 }
