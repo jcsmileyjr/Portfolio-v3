@@ -7,8 +7,8 @@ import coderBoy from '../../assets/personal/africanmanpc.png';
 
 const Project = (props) => {
 	return(
-		<Col className="project-container">
-			<Image src={HeadShot} className="project-image-style" fluid />
+		<Col className="project-container">			
+			<Image src={HeadShot} className="img-fluid" responsive />			
 			<p>Title</p>
 			<p>Description</p>
 			<div className="project-display-tech">
