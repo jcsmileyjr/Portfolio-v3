@@ -9,6 +9,7 @@
 
 .tech-image-style {
     flex: 1;
+    padding: .5vw;//w
 }
 
 .project-display-tech {
@@ -30,4 +31,8 @@
 
 .image-white-space {
     margin-bottom: 1vh;
+}
+
+.project-text {
+    text-align: center;
 }

@@ -7,7 +7,7 @@ import Project from '../project/Project.js';
 const ProjectSection = () => {
 	return(
 		<Container fluid>
-			<Row>
+			<Row className="project-section-summary">
 				<Col>I'm a self-taught full-stack developer with a focus on web and mobile development. My primary passion is building up my local tech community by organizing tech meetups.
 				I'm a Code Connector's Memphis Chapter leader and a co-founder of the North Mississippi chapter. You can contact me at jcsmileyjr@gmail.com or linkedin.com/in/jcsmileyjr or twitter.com/JCSmiley4				
 				</Col>

@@ -14,19 +14,19 @@ const Project = (props) => {
 			<div className="project-display-tech whitespace">
 				<section className="tech-image-style">
 					<Image src={coderBoy} fluid />
-					<p>Tech</p>
+					<p className="project-text">Tech</p>
 				</section>
 				<section className="tech-image-style">
 					<Image src={coderBoy} fluid />
-					<p>Tech</p>
+					<p className="project-text">Tech</p>
 				</section>
 				<section className="tech-image-style">
 					<Image src={coderBoy} fluid />
-					<p>Tech</p>
+					<p className="project-text">Tech</p>
 				</section>
 				<section className="tech-image-style">
 					<Image src={coderBoy} fluid />
-					<p>Tech</p>
+					<p className="project-text">Tech</p>
 				</section>
 			</div>
 			<div className="project-links-container whitespace">
