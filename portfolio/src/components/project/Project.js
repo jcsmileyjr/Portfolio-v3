@@ -7,8 +7,16 @@ import coderBoy from '../../assets/personal/africanmanpc.png';
 
 const Project = (props) => {
 	return(
-		<Col className="project-container">			
-			<Image src={HeadShot} className="img-fluid image-white-space" responsive />			
+		<Col className="project-container">
+            {props.type ==="video" &&
+                <video width="320" height="240" controls autoPlay>
+                    <source src={props.picture} type="video/mp4" />
+                </video>
+            }
+            {props.type ==="picture" &&
+                <Image src={props.picture} className="img-fluid image-white-space" responsive />
+            }			
+						
 			<p className="whitespace">Title</p>
 			<p className="whitespace">Description</p>
 			<div className="project-display-tech whitespace">

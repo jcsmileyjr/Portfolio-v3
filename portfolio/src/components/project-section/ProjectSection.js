@@ -3,6 +3,12 @@ import {Container, Row, Col, Image, Button} from 'react-bootstrap';
 
 import './projectSection.scss';
 import Project from '../project/Project.js';
+import LevelUpDev from '../../assets/project-images/level-up-dev.mp4';
+import edgeMotors from '../../assets/project-images/edge-motors.jpg';
+import blackjack from '../../assets/project-images/black-jack.mp4';
+import activeCases from '../../assets/project-images/active-cases.png';
+import monster from '../../assets/project-images/monster.png';
+import agentPedia from '../../assets/project-images/agent-pedia.png';
 
 const ProjectSection = () => {
 	return(
@@ -20,14 +26,14 @@ const ProjectSection = () => {
 				<Button variant="light">AngularJS</Button>
 			</Row>
 			<Row>
-				<Project />
-				<Project />
-				<Project />
+				<Project type="video" picture={LevelUpDev} />
+				<Project type="picture" picture={edgeMotors}/>
+				<Project type="video" picture={blackjack}/>
 			</Row>
 			<Row>
-				<Project />
-				<Project />
-				<Project />
+				<Project type="picture" picture={activeCases}/>
+				<Project type="picture" picture={monster}/>
+				<Project type="picture" picture={agentPedia}/>
 			</Row>
 		</Container>
 	);
