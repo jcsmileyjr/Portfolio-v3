@@ -2,6 +2,26 @@ import React from 'react';
 import {Container, Row, Col, Image, Button} from 'react-bootstrap';
 
 import './projectSection.scss';
+import HeadShot from '../../assets/personal/meetup-head-shot-small.jpg';
+import coderBoy from '../../assets/personal/africanmanpc.png';
+
+const Project = (props) => {
+	return(
+		<Col>
+			<Image src={HeadShot} className="image-style" />
+			<p>Title</p>
+			<p>Description</p>
+			<div>
+				<Image src={coderBoy} fluid className="logo"/>
+				<Image src={coderBoy} fluid className="logo"/>
+			</div>
+			<div>
+				<a href="">GitHub</a>
+				<a href="">Demo</a>
+			</div>
+		</Col>
+	);
+}
 
 const ProjectSection = () => {
 	return(
@@ -17,6 +37,16 @@ const ProjectSection = () => {
 				<Button variant="light">React Native (mobile)</Button>
 				<Button variant="light">React</Button>
 				<Button variant="light">AngularJS</Button>
+			</Row>
+			<Row>
+				<Project />
+				<Project />
+				<Project />
+			</Row>
+			<Row>
+				<Project />
+				<Project />
+				<Project />
 			</Row>
 		</Container>
 	);
