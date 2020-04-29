@@ -9,7 +9,7 @@ const Project = (props) => {
 	return(
 		<Col className="project-container">
             {props.type ==="video" &&
-                <video className="video-style" controls autoPlay>
+                <video className="video-style" controls autoPlay="true">
                     <source src={props.picture} type="video/mp4" />
                 </video>
             }
