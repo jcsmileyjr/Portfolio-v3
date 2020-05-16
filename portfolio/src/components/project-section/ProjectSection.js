@@ -30,13 +30,13 @@ const ProjectSection = () => {
 					type="video" 
 					picture={LevelUpDev}
 					title="Level Up Dev"
-					description="Mobile app to help developers plan their goals, break those goals down into milestones, and view a timeline of successes."
+					description="Mobile app to help developers plan their goals, milestones, and view successes."
 				/>
 				<Project 
 					type="picture" 
 					picture={edgeMotors}
-					title="Mobile Photo App for Edge Motors Car Museum"
-					description="Paid Freelance project completed in April of 2019"
+					title="Edge Motors Car Museum"
+					description="Paid Freelance mobile app completed in April of 2019"
 				/>
 				<Project 
 					type="video" 
@@ -50,13 +50,13 @@ const ProjectSection = () => {
 					type="picture" 
 					picture={activeCases}
 					title="Active Cases"
-					description="A case management app designed to keep the user informed of the current status of each case and allow management of the user's portfolio of cases."						
+					description="A case management app designed to keep the user informed of the status of each case."						
 				/>
 				<Project 
 					type="picture" 
 					picture={monster}
 					title="Chasing the 10 Pound Monster"
-					description="A biggest loser style web app designed specifically for my workplace. The objective is to be the first player to lose 10 pounds."						
+					description="A biggest loser style web app where the objective is to be the first player to lose 10 pounds."						
 				/>
 				<Project 
 					type="picture" 
