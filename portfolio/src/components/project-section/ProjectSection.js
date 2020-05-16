@@ -26,14 +26,44 @@ const ProjectSection = () => {
 				<Button variant="light">AngularJS</Button>
 			</Row>
 			<Row>
-				<Project type="video" picture={LevelUpDev} />
-				<Project type="picture" picture={edgeMotors}/>
-				<Project type="video" picture={blackjack}/>
+				<Project 
+					type="video" 
+					picture={LevelUpDev}
+					title="Level Up Dev"
+					description="Mobile app to help developers plan their goals, break those goals down into milestones, and view a timeline of successes."
+				/>
+				<Project 
+					type="picture" 
+					picture={edgeMotors}
+					title="Mobile Photo App for Edge Motors Car Museum"
+					description="Paid Freelance project completed in April of 2019"
+				/>
+				<Project 
+					type="video" 
+					picture={blackjack}
+					title="Black-Jack"
+					description="A traditional Black-Jack card game developed as a React web app."					
+				/>
 			</Row>
 			<Row>
-				<Project type="picture" picture={activeCases}/>
-				<Project type="picture" picture={monster}/>
-				<Project type="picture" picture={agentPedia}/>
+				<Project 
+					type="picture" 
+					picture={activeCases}
+					title="Active Cases"
+					description="A case management app designed to keep the user informed of the current status of each case and allow management of the user's portfolio of cases."						
+				/>
+				<Project 
+					type="picture" 
+					picture={monster}
+					title="Chasing the 10 Pound Monster"
+					description="A biggest loser style web app designed specifically for my workplace. The objective is to be the first player to lose 10 pounds."						
+				/>
+				<Project 
+					type="picture" 
+					picture={agentPedia}
+					title="Agent Pedia"
+					description="Online field guide for gaming law enforcement agents."						
+				/>
 			</Row>
 		</Container>
 	);

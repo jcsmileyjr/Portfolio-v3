@@ -17,8 +17,8 @@ const Project = (props) => {
                 <Image src={props.picture} className="img-fluid image-white-space" responsive />
             }			
 						
-			<p className="whitespace">Title</p>
-			<p className="whitespace">Description</p>
+		<p className="whitespace">{props.title}</p>
+		<p className="whitespace">{props.description}</p>
 			<div className="project-display-tech whitespace">
 				<section className="tech-image-style">
 					<Image src={coderBoy} fluid />
