@@ -2,7 +2,10 @@ import React from 'react';
 import {Col, Image} from 'react-bootstrap';
 
 import './project.scss';
-import HeadShot from '../../assets/personal/meetup-head-shot-small.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact, faCss3, faHtml5, faJs, faNodeJs, faBootstrap, faAngular} from '@fortawesome/free-brands-svg-icons'
+//import { faReact } from '@fortawesome/free-solid-svg-icons'
+//import { library } from "@fortawesome/fontawesome-svg-core";
 import coderBoy from '../../assets/personal/africanmanpc.png';
 
 const Project = (props) => {
@@ -21,26 +24,71 @@ const Project = (props) => {
 				<p className="whitespace">{props.title}</p>
 				<p className="whitespace">{props.description}</p>
 				<div className="project-display-tech whitespace">
-					<section className="tech-image-style">
-						<Image src={coderBoy} fluid />
-						<p className="project-text">Tech</p>
-					</section>
-					<section className="tech-image-style">
-						<Image src={coderBoy} fluid />
-						<p className="project-text">Tech</p>
-					</section>
-					<section className="tech-image-style">
-						<Image src={coderBoy} fluid />
-						<p className="project-text">Tech</p>
-					</section>
-					<section className="tech-image-style">
-						<Image src={coderBoy} fluid />
-						<p className="project-text">Tech</p>
-					</section>
+					{props.react && 
+						<section className="tech-image-style">
+							<FontAwesomeIcon icon={faReact} />
+							<p>React</p>
+						</section>
+					}
+
+					{props.reactNative && 
+						<section className="tech-image-style">
+							<FontAwesomeIcon icon={faReact} />
+							<p>React Native</p>
+						</section>
+					}					
+
+					{props.html && 
+						<section className="tech-image-style">
+							<FontAwesomeIcon icon={faHtml5} />
+							<p>HTML5</p>
+						</section>
+					}
+					{props.css && 
+						<section className="tech-image-style">
+							<FontAwesomeIcon icon={faCss3} />
+							<p>CSS3</p>
+						</section>
+					}
+
+					{props.js && 
+						<section className="tech-image-style">
+							<FontAwesomeIcon icon={faJs} />
+							<p>JavaScript</p>
+						</section>
+					}
+
+					{props.bootstrap && 
+						<section className="tech-image-style">
+							<FontAwesomeIcon icon={faBootstrap} />
+							<p>Bootstrap</p>
+						</section>
+					}	
+
+					{props.node && 
+						<section className="tech-image-style">
+							<FontAwesomeIcon icon={faNodeJs} />
+							<p>Node/Express</p>
+						</section>
+					}
+
+					{props.angular && 
+						<section className="tech-image-style">
+							<FontAwesomeIcon icon={faAngular} />
+							<p>AngularJS</p>
+						</section>
+					}
+
+					{props.materializeCSS && 
+						<section className="tech-image-style">
+							<p>Materialize CSS</p>
+						</section>
+					}							
+
 				</div>
 				<div className="project-links-container whitespace">
-					<a href="">GitHub</a>
-					<a href="">Demo</a>
+					<a href="https://github.com/jcsmileyjr/v2-Portfolio/blob/master/portfolio/src/components/portfolio.js">GitHub</a>
+					<a href="https://github.com/jcsmileyjr/v2-Portfolio/blob/master/portfolio/src/components/portfolio.js">Demo</a>
 				</div>
 			</section>
 		</Col>

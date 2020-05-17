@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col, Image, Button} from 'react-bootstrap';
+import {Container, Row, Col, Button} from 'react-bootstrap';
 
 import './projectSection.scss';
 import Project from '../project/Project.js';
@@ -31,18 +31,28 @@ const ProjectSection = () => {
 					picture={LevelUpDev}
 					title="Level Up Dev"
 					description="Mobile app to help developers plan their goals, milestones, and view successes."
+					reactNative
+					html
+					bootstrap
 				/>
 				<Project 
 					type="picture" 
 					picture={edgeMotors}
 					title="Edge Motors Car Museum"
 					description="Paid Freelance mobile app completed in April of 2019"
+					reactNative
+					css
+					html
 				/>
 				<Project 
 					type="video" 
 					picture={blackjack}
 					title="Black-Jack"
-					description="A traditional Black-Jack card game developed as a React web app."					
+					description="A traditional Black-Jack card game developed as a React web app."
+					react
+					html
+					bootstrap
+
 				/>
 			</Row>
 			<Row>
@@ -50,19 +60,28 @@ const ProjectSection = () => {
 					type="picture" 
 					picture={activeCases}
 					title="Active Cases"
-					description="A case management app designed to keep the user informed of the status of each case."						
+					description="A case management app designed to keep the user informed of the status of each case."
+					react
+					node
+					bootstrap						
 				/>
 				<Project 
 					type="picture" 
 					picture={monster}
 					title="Chasing the 10 Pound Monster"
-					description="A biggest loser style web app where the objective is to be the first player to lose 10 pounds."						
+					description="A biggest loser style web app where the objective is to be the first player to lose 10 pounds."
+					angular
+					node
+					bootstrap						
 				/>
 				<Project 
 					type="picture" 
 					picture={agentPedia}
 					title="Agent Pedia"
-					description="Online field guide for gaming law enforcement agents."						
+					description="Online field guide for gaming law enforcement agents."	
+					angular
+					node
+					materializeCSS 					
 				/>
 			</Row>
 		</Container>
