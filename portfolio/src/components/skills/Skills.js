@@ -10,7 +10,7 @@ const frameworks = ["ReactJS", "React Native", "Angular", "AngularJS", "Node/Exp
 
 const DisplaySkills = (props) => {
 	return(
-		<div><FontAwesomeIcon icon={faCheck} className="check-icon-style" />{props.text}</div>
+		<div className="align-Item-Side-By-Side"><FontAwesomeIcon icon={faCheck} className="check-icon-style" />{props.text}</div>
 	); 
 }
 
