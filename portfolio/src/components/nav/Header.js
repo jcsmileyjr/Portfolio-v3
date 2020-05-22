@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col, Image, Nav, Navbar} from 'react-bootstrap';
+import {Container, Image, Nav, Navbar} from 'react-bootstrap';
 import './header.scss';
 
 import coderBoy from '../../assets/personal/africanmanpc.png';

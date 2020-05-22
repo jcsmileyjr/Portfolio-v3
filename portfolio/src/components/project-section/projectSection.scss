@@ -1,0 +1,27 @@
+@import '../../App';/*import global CSS styles*/
+
+.project-selection-section {
+    display:flex;
+    justify-content: space-around;
+    align-items:stretch;
+    margin-top:1vh;
+    margin-bottom: 1vh;
+}
+
+
+.project-section-summary {
+    margin-bottom:2vh;
+}
+
+.center-buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.space-Between-Radio-Buttons {
+    margin-right: 2vw;
+    margin-left: 2vw;
+    color:$primary-light-blue-color;
+    border:none;
+}
