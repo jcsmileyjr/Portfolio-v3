@@ -68,20 +68,20 @@ const Project = (props) => {
 					{props.node && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon icon={faNodeJs} />
-							<p>Node/Express</p>
+							<p className="smallerFont">Node Express</p>
 						</section>
 					}
 
 					{props.angular && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon icon={faAngular} />
-							<p>AngularJS</p>
+							<p className="smallerFont">AngularJS</p>
 						</section>
 					}
 
 					{props.materializeCSS && 
 						<section className="tech-image-style">
-							<p>Materialize CSS</p>
+							<p className="smallerFont">Materialize CSS</p>
 						</section>
 					}							
 
