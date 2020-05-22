@@ -26,27 +26,27 @@ const Project = (props) => {
 				<div className="project-display-tech whitespace">
 					{props.react && 
 						<section className="tech-image-style">
-							<FontAwesomeIcon icon={faReact} />
+							<FontAwesomeIcon className="blueIcon" icon={faReact} />
 							<p>React</p>
 						</section>
 					}
 
 					{props.reactNative && 
 						<section className="tech-image-style">
-							<FontAwesomeIcon icon={faReact} />
+							<FontAwesomeIcon className="blueIcon" icon={faReact} />
 							<p>React Native</p>
 						</section>
 					}					
 
 					{props.html && 
 						<section className="tech-image-style">
-							<FontAwesomeIcon icon={faHtml5} />
+							<FontAwesomeIcon className="orangeIcon" icon={faHtml5} />
 							<p>HTML5</p>
 						</section>
 					}
 					{props.css && 
 						<section className="tech-image-style">
-							<FontAwesomeIcon icon={faCss3} />
+							<FontAwesomeIcon className="blueIcon" icon={faCss3} />
 							<p>CSS3</p>
 						</section>
 					}
@@ -60,21 +60,21 @@ const Project = (props) => {
 
 					{props.bootstrap && 
 						<section className="tech-image-style">
-							<FontAwesomeIcon icon={faBootstrap} />
+							<FontAwesomeIcon className="purpleIcon"  icon={faBootstrap} />
 							<p>Bootstrap</p>
 						</section>
 					}	
 
 					{props.node && 
 						<section className="tech-image-style">
-							<FontAwesomeIcon icon={faNodeJs} />
+							<FontAwesomeIcon className="greenIcon" icon={faNodeJs} />
 							<p className="smallerFont">Node Express</p>
 						</section>
 					}
 
 					{props.angular && 
 						<section className="tech-image-style">
-							<FontAwesomeIcon icon={faAngular} />
+							<FontAwesomeIcon className="redIcon" icon={faAngular} />
 							<p className="smallerFont">AngularJS</p>
 						</section>
 					}
