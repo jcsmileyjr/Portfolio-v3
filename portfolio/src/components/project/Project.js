@@ -4,9 +4,6 @@ import {Col, Image} from 'react-bootstrap';
 import './project.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faCss3, faHtml5, faJs, faNodeJs, faBootstrap, faAngular} from '@fortawesome/free-brands-svg-icons'
-//import { faReact } from '@fortawesome/free-solid-svg-icons'
-//import { library } from "@fortawesome/fontawesome-svg-core";
-import coderBoy from '../../assets/personal/africanmanpc.png';
 
 const Project = (props) => {
 	return(
