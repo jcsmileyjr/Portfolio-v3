@@ -86,10 +86,18 @@ const Project = (props) => {
 					}							
 
 				</div>
-				<div className="project-links-container whitespace">
-					<a href="https://github.com/jcsmileyjr/v2-Portfolio/blob/master/portfolio/src/components/portfolio.js">GitHub</a>
-					<a href="https://github.com/jcsmileyjr/v2-Portfolio/blob/master/portfolio/src/components/portfolio.js">Demo</a>
-				</div>
+				{props.code &&
+					<div className="project-links-container whitespace">
+						<a href={props.code}>GitHub</a>
+						<a href={props.demo}>Demo</a>
+					</div>
+				}
+
+				{!props.code  &&
+					<div className="whitespace">
+						<p>The code is private to the employer</p>
+					</div>
+				}				
 			</section>
 		</Col>
 	);

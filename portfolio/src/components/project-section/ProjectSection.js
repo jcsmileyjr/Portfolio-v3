@@ -34,6 +34,8 @@ const ProjectSection = () => {
 					reactNative
 					html
 					bootstrap
+					code ="https://github.com/jcsmileyjr/LevelUp"
+					demo="https://play.google.com/store/apps/details?id=com.levelup.mobile"
 				/>
 				<Project 
 					type="picture" 
@@ -42,7 +44,7 @@ const ProjectSection = () => {
 					description="Paid Freelance mobile app completed in April of 2019"
 					reactNative
 					css
-					html
+					html				
 				/>
 				<Project 
 					type="video" 
@@ -52,7 +54,8 @@ const ProjectSection = () => {
 					react
 					html
 					bootstrap
-
+					code ="https://github.com/jcsmileyjr/BlackJack"
+					demo="https://jcsmileyjr.github.io/BlackJack/"
 				/>
 			</Row>
 			<Row>
@@ -63,7 +66,9 @@ const ProjectSection = () => {
 					description="A case management app designed to keep the user informed of the status of each case."
 					react
 					node
-					bootstrap						
+					bootstrap
+					code ="https://github.com/jcsmileyjr/active-cases"
+					demo="https://active-cases.herokuapp.com/"											
 				/>
 				<Project 
 					type="picture" 
@@ -72,7 +77,9 @@ const ProjectSection = () => {
 					description="A biggest loser style web app where the objective is to be the first player to lose 10 pounds."
 					angular
 					node
-					bootstrap						
+					bootstrap
+					code ="https://github.com/jcsmileyjr/10MON"
+					demo="https://jcsmileyjr.github.io/10MON/"											
 				/>
 				<Project 
 					type="picture" 
@@ -81,7 +88,9 @@ const ProjectSection = () => {
 					description="Online field guide for gaming law enforcement agents."	
 					angular
 					node
-					materializeCSS 					
+					materializeCSS 
+					code ="https://github.com/jcsmileyjr/agent-guide"
+					demo="https://jcsmileyjr.github.io/agent-guide/"										
 				/>
 			</Row>
 		</Container>
