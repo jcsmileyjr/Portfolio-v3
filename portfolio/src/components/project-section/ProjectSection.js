@@ -25,8 +25,8 @@ const ProjectSection = () => {
           development. My primary passion is building up my local tech community
           by organizing tech meetups. I'm a Code Connector's Memphis Chapter
           leader and a co-founder of the North Mississippi chapter. You can
-          contact me at jcsmileyjr@gmail.com or linkedin.com/in/jcsmileyjr or
-          twitter.com/JCSmiley4
+          contact me at jcsmileyjr@gmail.com or on <a href="https://linkedin.com/in/jcsmileyjr" target="_blank">LinkedIn</a> or
+          on <a href="https://twitter.com/JCSmiley4" target="_blank">Twitter</a>.
         </Col>
       </Row>
       <Row className="center-buttons">
