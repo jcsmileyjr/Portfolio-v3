@@ -49,6 +49,7 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
             value="All"
             className="space-Between-Radio-Buttons"
             variant="outline-primary"
+            onClick = {()=> {setTechnologyOption("All")}}
           >
             All
           </ToggleButton>
@@ -58,6 +59,7 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
             value="NodeExpress"
             className="space-Between-Radio-Buttons"
             variant="outline-primary"
+            onClick = {()=> {setTechnologyOption("node")}}
           >
             Node/Express
           </ToggleButton>
@@ -67,6 +69,7 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
             value="ReactNative"
             className="space-Between-Radio-Buttons"
             variant="outline-primary"
+            onClick = {()=> {setTechnologyOption("reactNative")}}
           >
             React Native (mobile)
           </ToggleButton>
@@ -76,6 +79,7 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
             value="React"
             className="space-Between-Radio-Buttons"
             variant="outline-primary"
+            onClick = {()=> {setTechnologyOption("react")}}
           >
             React
           </ToggleButton>
@@ -85,6 +89,7 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
             value="AngularJS"
             className="space-Between-Radio-Buttons"
             variant="outline-primary"
+            onClick = {()=> {setTechnologyOption("angular")}}
           >
             AngularJS
           </ToggleButton>
@@ -96,15 +101,29 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
           finishedProjects.map((project, id) => {
             let indexOfImage = listOfImageNames.findIndex(imageName => project.picture === imageName );
 
-            return <Project key={id}
-                      type= {project.type}
-                      picture= {listOfImages[indexOfImage]}
-                      title= {project.title}
-                      description= {project.description}
-                      code= {project.code}
-                      demo = {project.demo}
-                    />
-          })
+            if(showTechnologyOption === "All"){
+              return <Project key={id}
+                        type= {project.type}
+                        picture= {listOfImages[indexOfImage]}
+                        title= {project.title}
+                        description= {project.description}
+                        code= {project.code}
+                        demo = {project.demo}
+                      />
+            }
+            
+            if(showTechnologyOption === project.tech1 || showTechnologyOption === project.tech2){
+              return <Project key={id}
+                        type= {project.type}
+                        picture= {listOfImages[indexOfImage]}
+                        title= {project.title}
+                        description= {project.description}
+                        code= {project.code}
+                        demo = {project.demo}
+                      />              
+            }          
+            })
+          
         }
       </Row>
     </Container>
