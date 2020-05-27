@@ -43,9 +43,9 @@ const Skills = () => {
 				<Col xs={6} sm={{span:6,offset:3}} md={{span:9, offset:3}} className="white-space-below">
 					<h5>Languages</h5>
 					{
-						languages.map((language) => {
+						languages.map((language, id) => {
 							return(
-								<DisplaySkills text={language} />
+								<DisplaySkills key={id} text={language} />
 							);						
 						})
 					}
@@ -54,9 +54,9 @@ const Skills = () => {
 				<Col xs={6} sm={{span:6,offset:3}} md={{span:9, offset:3}} className="">
 					<h5>Framework</h5>
 					{
-						frameworks.map((framework) => {
+						frameworks.map((framework, id) => {
 							return(
-								<DisplaySkills text={framework} />
+								<DisplaySkills key={id} text={framework} />
 							);						
 						})
 					}
