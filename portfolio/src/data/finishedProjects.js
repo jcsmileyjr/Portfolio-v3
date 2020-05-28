@@ -70,7 +70,18 @@ const finishedProjects = [
         tech3:"materializeCSS",
         code:"https://github.com/jcsmileyjr/agent-guide",
         demo:"https://jcsmileyjr.github.io/agent-guide/",
-    }
+    },
+    {
+        type:"video",
+        picture:"bikeRide",
+        title:"Bike Ride",
+        description:"Mobile app that helps the user decide when they should bike ride.",
+        tech1:"reactNative",
+        tech2:"html",
+        tech3:"bootstrap",
+        code:"https://github.com/jcsmileyjr/BikeRide",
+        demo:"https://expo.io/@jcsmileyjr/bike-ride",
+    }    
 ];
 
 export default finishedProjects;
