@@ -27,3 +27,17 @@
     border-radius: 10px !important;
     max-height: 36px;
 }
+
+  /* media queries */
+  @media (max-width: 576px) {
+    .project-section-summary {
+        margin-top:2vh;
+    }
+
+    .center-buttons {
+        margin-bottom: 8vh;
+    }
+  }
+  @media (max-width: 400px) {
+    text-align: left;
+  }
