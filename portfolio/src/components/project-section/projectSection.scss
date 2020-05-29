@@ -37,7 +37,23 @@
     .center-buttons {
         margin-bottom: 8vh;
     }
+
+    .space-Between-Radio-Buttons1 {
+        margin-right: 0vw;
+        margin-left: 0vw;        
+    }
+
+    .btn-group {
+        display: block;
+    }
   }
-  @media (max-width: 400px) {
-    text-align: left;
+
+  @media (max-width: 989px) {
+    .btn {
+        font-size: .8rem;
+    }
+
+    .center-buttons {
+        margin-bottom: 3vh;
+    }    
   }

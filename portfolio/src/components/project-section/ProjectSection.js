@@ -26,7 +26,7 @@ const ProjectSection = () => {
 const [showTechnologyOption, setTechnologyOption] = useState("All");
 
   return (
-    <Container>
+    <Container fluid>
       <Row className="project-section-summary">
         <Col>
           I'm a self-taught full-stack developer with a focus on web and mobile
@@ -57,26 +57,6 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
           <ToggleButton
             type="radio"
             name="technologyType"
-            value="NodeExpress"
-            className="space-Between-Radio-Buttons"
-            variant="outline-primary"
-            onClick = {()=> {setTechnologyOption("node")}}
-          >
-            Node/Express
-          </ToggleButton>
-          <ToggleButton
-            type="radio"
-            name="technologyType"
-            value="ReactNative"
-            className="space-Between-Radio-Buttons"
-            variant="outline-primary"
-            onClick = {()=> {setTechnologyOption("reactNative")}}
-          >
-            React Native (mobile)
-          </ToggleButton>
-          <ToggleButton
-            type="radio"
-            name="technologyType"
             value="React"
             className="space-Between-Radio-Buttons"
             variant="outline-primary"
@@ -93,6 +73,26 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
             onClick = {()=> {setTechnologyOption("angular")}}
           >
             AngularJS
+          </ToggleButton>          
+          <ToggleButton
+            type="radio"
+            name="technologyType"
+            value="NodeExpress"
+            className="space-Between-Radio-Buttons"
+            variant="outline-primary"
+            onClick = {()=> {setTechnologyOption("node")}}
+          >
+            Node/Express
+          </ToggleButton>
+          <ToggleButton
+            type="radio"
+            name="technologyType"
+            value="ReactNative"
+            className="space-Between-Radio-Buttons"
+            variant="outline-primary"
+            onClick = {()=> {setTechnologyOption("reactNative")}}
+          >
+            React Native (mobile)
           </ToggleButton>
         </ToggleButtonGroup>
       </Row>
