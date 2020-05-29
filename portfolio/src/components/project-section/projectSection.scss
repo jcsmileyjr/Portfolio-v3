@@ -25,4 +25,35 @@
     color:$primary-light-blue-color;
     border:none;
     border-radius: 10px !important;
+    max-height: 36px;
 }
+
+  /* media queries */
+  @media (max-width: 576px) {
+    .project-section-summary {
+        margin-top:2vh;
+    }
+
+    .center-buttons {
+        margin-bottom: 8vh;
+    }
+
+    .space-Between-Radio-Buttons1 {
+        margin-right: 0vw;
+        margin-left: 0vw;        
+    }
+
+    .btn-group {
+        display: block;
+    }
+  }
+
+  @media (max-width: 989px) {
+    .btn {
+        font-size: .8rem;
+    }
+
+    .center-buttons {
+        margin-bottom: 3vh;
+    }    
+  }
