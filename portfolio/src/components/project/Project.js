@@ -21,62 +21,63 @@ const Project = (props) => {
 				<p className="whitespace">{props.title}</p>
 				<p className="whitespace">{props.description}</p>
 				<div className="project-display-tech whitespace">
-					{props.react && 
+
+					{(props.tech1 === "react" || props.tech2 ==="react" || props.tech3 ==="react") && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon className="blueIcon" icon={faReact} />
 							<p>React</p>
 						</section>
 					}
 
-					{props.reactNative && 
+					{(props.tech1 === "reactNative" || props.tech2 ==="reactNative" || props.tech3 ==="reactNative") && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon className="blueIcon" icon={faReact} />
 							<p>React Native</p>
 						</section>
 					}					
 
-					{props.html && 
+					{(props.tech1 === "html" || props.tech2 ==="html" || props.tech3 ==="html") && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon className="orangeIcon" icon={faHtml5} />
 							<p>HTML5</p>
 						</section>
 					}
-					{props.css && 
+					{(props.tech1 === "css" || props.tech2 ==="css" || props.tech3 ==="css") && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon className="blueIcon" icon={faCss3} />
 							<p>CSS3</p>
 						</section>
 					}
 
-					{props.js && 
+					{(props.tech1 === "js" || props.tech2 ==="js" || props.tech3 ==="js") && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon icon={faJs} />
 							<p>JavaScript</p>
 						</section>
 					}
 
-					{props.bootstrap && 
+					{(props.tech1 === "bootstrap" || props.tech2 ==="bootstrap" || props.tech3 ==="bootstrap") && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon className="purpleIcon"  icon={faBootstrap} />
 							<p>Bootstrap</p>
 						</section>
 					}	
 
-					{props.node && 
+					{(props.tech1 === "node" || props.tech2 ==="node" || props.tech3 ==="node") && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon className="greenIcon" icon={faNodeJs} />
 							<p className="smallerFont">Node Express</p>
 						</section>
 					}
 
-					{props.angular && 
+					{(props.tech1 === "angular" || props.tech2 ==="angular" || props.tech3 ==="angular") && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon className="redIcon" icon={faAngular} />
 							<p className="smallerFont">AngularJS</p>
 						</section>
 					}
 
-					{props.materializeCSS && 
+					{(props.tech1 === "materializeCSS" || props.tech2 ==="materializeCSS" || props.tech3 ==="materializeCSS") && 
 						<section className="tech-image-style">
 							<p className="smallerFont">Materialize CSS</p>
 						</section>
