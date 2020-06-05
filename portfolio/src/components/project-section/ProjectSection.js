@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 import {
   Container,
   Row,
@@ -110,6 +110,9 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
                         description= {project.description}
                         code= {project.code}
                         demo = {project.demo}
+                        tech1 = {project.tech1}
+                        tech2 = {project.tech2}
+                        tech3 = {project.tech3}
                       />
             }        
           })

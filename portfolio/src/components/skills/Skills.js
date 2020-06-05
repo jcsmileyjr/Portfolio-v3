@@ -19,7 +19,7 @@ const Skills = () => {
 		<Container fluid>
 			{/*My personal head shot */}
 			<Row>
-				<Col xs={{span:6,offset:3}} className="center-content">
+				<Col className="center-content">
 					<Image src={HeadShot} className="image-style" />
 				</Col>
 			</Row>

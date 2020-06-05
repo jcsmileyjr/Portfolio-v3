@@ -39,8 +39,6 @@
 
 .image-white-space {
     height: 315px;
-    margin-left: 1vw;
-    margin-right: 1vw;
 }
 
 .project-text {
@@ -76,4 +74,14 @@
 
 .purpleIcon {
     color:purple;
+}
+
+.materialize-text-style {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.align-text {
+    text-align: center;
 }
