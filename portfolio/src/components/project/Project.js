@@ -93,7 +93,7 @@ const Project = (props) => {
 
 				{!props.code  &&
 					<div className="whitespace">
-						<p>The code is private to the employer</p>
+						<p className="align-text ">Code is private to employer</p>
 					</div>
 				}				
 			</section>
