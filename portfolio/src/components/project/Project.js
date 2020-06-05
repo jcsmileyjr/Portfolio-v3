@@ -79,7 +79,7 @@ const Project = (props) => {
 
 					{(props.tech1 === "materializeCSS" || props.tech2 ==="materializeCSS" || props.tech3 ==="materializeCSS") && 
 						<section className="tech-image-style">
-							<p className="smallerFont">Materialize CSS</p>
+							<p className="smallerFont materialize-text-style">Materialize CSS</p>
 						</section>
 					}							
 
