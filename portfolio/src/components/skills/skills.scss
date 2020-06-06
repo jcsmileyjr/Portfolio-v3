@@ -33,6 +33,13 @@
 	text-align: center;
 }
 
+/* media queries */
+@media (max-width: 576px) {
+	.portfolio-name-style {
+		font-size: 6vw;
+	}
+}
+
 /*black horizontal bar between title below image*/
 .separator-bar {
 	border: 1px black solid;
