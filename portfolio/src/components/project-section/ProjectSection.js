@@ -99,24 +99,24 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
       <Row>
         
         {        
-          finishedProjects.map((project, id) => {
-            let indexOfImage = listOfImageNames.findIndex(imageName => project.picture === imageName );
-
-            if(showTechnologyOption === "All" || showTechnologyOption === project.tech1 || showTechnologyOption === project.tech2){
-              return <Project key={id}
-                        type= {project.type}
-                        picture= {listOfImages[indexOfImage]}
-                        title= {project.title}
-                        description= {project.description}
-                        code= {project.code}
-                        demo = {project.demo}
-                        tech1 = {project.tech1}
-                        tech2 = {project.tech2}
-                        tech3 = {project.tech3}
-                      />
-            }        
-          })
-          
+          finishedProjects
+            .filter((project, id) => {
+              return showTechnologyOption === "All" || showTechnologyOption === project.tech1 || showTechnologyOption === project.tech2
+            })
+            .map((project, id) => {
+              let indexOfImage = listOfImageNames.findIndex(imageName => project.picture === imageName );            
+                return <Project key={id}
+                          type= {project.type}
+                          picture= {listOfImages[indexOfImage]}
+                          title= {project.title}
+                          description= {project.description}
+                          code= {project.code}
+                          demo = {project.demo}
+                          tech1 = {project.tech1}
+                          tech2 = {project.tech2}
+                          tech3 = {project.tech3}
+                        />                    
+            })          
         }
       </Row>
     </Container>
