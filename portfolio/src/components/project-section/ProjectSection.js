@@ -29,12 +29,7 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
     <Container fluid>
       <Row className="project-section-summary">
         <Col>
-          I'm a self-taught full-stack developer with a focus on web and mobile
-          development. My primary passion is building up my local tech community
-          by organizing tech meetups. I'm a Code Connector's Memphis Chapter
-          leader and a co-founder of the North Mississippi chapter. You can
-          contact me at jcsmileyjr@gmail.com or on <a href="https://linkedin.com/in/jcsmileyjr" target="_blank" rel="noopener noreferrer">LinkedIn</a> or
-          on <a href="https://twitter.com/JCSmiley4" target="_blank" rel="noopener noreferrer">Twitter</a>.
+          These are my favorite projects curated from more than 50 in my GitHub. Several of these are demos of tools I've created for my employer.
         </Col>
       </Row>
       <Row className="center-buttons">
