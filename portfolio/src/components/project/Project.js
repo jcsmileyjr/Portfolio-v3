@@ -17,10 +17,10 @@ const Project = (props) => {
 				{props.type ==="picture" &&
 					<Image src={props.picture} className="img-fluid image-white-space" responsive= "true" />
 				}			
-							
-				<p className="whitespace">{props.title}</p>
-				<p className="whitespace">{props.description}</p>
-				<div className="project-display-tech whitespace">
+				<article className="text-container">			
+					<p className="whitespace">{props.title}</p>
+					<p className="whitespace">{props.description}</p>
+					<div className="project-display-tech whitespace">
 
 					{(props.tech1 === "react" || props.tech2 ==="react" || props.tech3 ==="react") && 
 						<section className="tech-image-style">
@@ -83,19 +83,20 @@ const Project = (props) => {
 						</section>
 					}							
 
-				</div>
-				{props.code &&
-					<div className="project-links-container whitespace">
-						<a href={props.code}>GitHub</a>
-						<a href={props.demo}>Demo</a>
 					</div>
-				}
+					{props.code &&
+						<div className="project-links-container whitespace">
+							<a href={props.code}>GitHub</a>
+							<a href={props.demo}>Demo</a>
+						</div>
+					}
 
-				{!props.code  &&
-					<div className="whitespace">
-						<p className="align-text ">Code is private to employer</p>
-					</div>
-				}				
+					{!props.code  &&
+						<div className="whitespace">
+							<p className="align-text ">Code is private to employer</p>
+						</div>
+					}
+				</article>				
 			</section>
 		</Col>
 	);

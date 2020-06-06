@@ -11,7 +11,14 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    flex: 1;
 }
 
 .tech-image-style {
