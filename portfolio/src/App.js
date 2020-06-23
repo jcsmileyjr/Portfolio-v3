@@ -1,23 +1,18 @@
 import React from 'react';
 import './pages/portfolio/portfolio.scss';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Header from './components/nav/Header';
 import Portfolio from './pages/portfolio/Portfolio.js';
+import About from './pages/about/About.js';
 
 function App() {
   return (
     <Router>
+      <Header />
       <div>
-        <Header />
-        <Switch>
-          <Route path="/">
-            <Portfolio />
-          </Route>
-          <Route path="/about">
-            
-          </Route>
-        </Switch>
+        <Route exact path="/" render={props => <Portfolio />} />
+        <Route path="/about" render={props => <About />} />
       </div>
     </Router>
   );
