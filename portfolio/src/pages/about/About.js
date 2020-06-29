@@ -55,6 +55,8 @@ const About = () => {
           <h5>Conferences</h5>
           <ul>
             <li>DevFest Memphis 2020</li>
+            <li>JuneteenthConf 2020</li>
+            <li>React Byte Conference 2020</li>
             <li>Magnolia.js 2020</li>
             <li>Free Code Camp Lockdown Conf 2020</li>
             <li>Changing the Color of Tech Memphis 2019</li>
