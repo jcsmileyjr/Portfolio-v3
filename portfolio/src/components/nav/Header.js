@@ -20,12 +20,12 @@ const Header = () => {
           <Nav>
             <Nav.Item className="nav-links-container-style">
               <Nav.Link className="nav-links-text-style">
-                <Link to="/">Projects</Link>
+                <Link to="/" className="link-style">Projects</Link>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="nav-links-container-style">
               <Nav.Link className="nav-links-text-style">
-                <Link to="/about">About</Link>
+                <Link to="/about" className="link-style">About</Link>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="nav-links-container-style">
