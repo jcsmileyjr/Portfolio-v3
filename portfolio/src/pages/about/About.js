@@ -5,6 +5,7 @@ import "./about.scss";
 import CCMeetupPic from "../../assets/about/code-connector-group.jpg";
 import LookOut from "../../assets/about/smartCityLookOut.jpg";
 import Hike from "../../assets/about/hike.jpg";
+import BikeRide from "../../assets/about/bike-ride.jpg";
 
 const About = () => {
   return (
@@ -24,8 +25,8 @@ const About = () => {
               North Mississippi chapter in 2019. As the Online Community Manager
               for the overall organization, my duties are to stimulate
               conversation and content in our online Slack community of over 500
-              members. On a monthly basic, I help host up to three tech meetups
-              (physical and virtual) a month in Memphis, TN.
+              members. On a monthly basis, I help host up to three physical and
+              virtual tech meetups a month in Memphis, TN.
             </p>
             <p>
               Code Connector is a community of aspiring developers and mentors
@@ -92,13 +93,16 @@ const About = () => {
           </section>
           <section>
             <h3 className="page-title">Non-tech Related</h3>
-            <div className="page-title">
+            <div className="page-title multiple-images">
               <Image src={Hike} className="image-style" />
+              <Image src={BikeRide} className="image-style" />
             </div>
             <p>
               I come from a family of gardeners and my personal favorite plants
               to growing is peppers, cucumbers, melons, green beans, lettuce,
               and sweet potatoes.
+            </p>
+            <p>I am an avid bicyclist. The most miles I have biked in one day is 36 miles (57.94 kilometers).
             </p>
             <p>
               I fell in love with hiking. I have hiked most of the state parks

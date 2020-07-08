@@ -4,9 +4,24 @@
 
 /*Style the image*/
 .image-style {
-	max-height: 30vh;
+    max-height: 30vh;
+}
+
+.multiple-images {
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
     text-decoration: underline;
+}
+
+/* media queries */
+@media (max-width: 540px) {
+    .multiple-images {        
+        flex-direction: column;
+    }
+    .image-style {
+        margin-bottom: 15px;
+    }
 }
