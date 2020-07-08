@@ -37,7 +37,7 @@ const About = () => {
             <h3 className="page-title">Technical Experience</h3>
             <p>
               I graduated from the University of Mississippi with a Bachelor
-              degree in MIS and NorthWest Community College with an Associte
+              degree in MIS and Northwest Community College with an Associate
               degree in CIS.
             </p>
             <p>
@@ -54,11 +54,11 @@ const About = () => {
           <section>
             <h3 className="page-title">Team Experience</h3>
             <p>
-              A software design firm contracted a friend and I to build a mobile
-              app for the antique car museum Edge Motors Museum in Memphis. This
-              endevor allowed me to work with designers, product owners, and a
-              co-devloper on a product that was used by 700 users on Grand
-              Opening day and every day at the museum since.
+            A software design firm contracted a friend and I to build a mobile
+app for the antique car museum Edge Motors Museum in Memphis. This
+endeavor allowed me to work with designers, product owners, and a
+co-developer on a product that was used by 700 users on Grand
+Opening day and every day at the museum since.
             </p>
             <p>Hackathons have offered great opportunities to work in teams.</p>
             <ul>
@@ -86,10 +86,6 @@ const About = () => {
               I come from a family of gardeners and my personal favorite plants
               to growing is peppers, cucumbers, melons, green beans, lettuce,
               and sweet potatoes.
-            </p>
-            <p>
-              peppers, cucumbers, melons, green beans, lettuce, and sweet
-              potatoes.
             </p>
             <p>
               I fell in love with hiking. I have hiked most of the state parks
