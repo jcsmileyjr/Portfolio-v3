@@ -1,16 +1,5 @@
 const finishedProjects = [
     {
-        type:"video",
-        picture:"LevelUpDev",
-        title:"Level Up Dev",
-        description:"Mobile app to help developers plan their goals, milestones, and view successes.",
-        tech1:"reactNative",
-        tech2:"html",
-        tech3:"bootstrap",
-        code:"https://github.com/jcsmileyjr/LevelUp",
-        demo:"https://play.google.com/store/apps/details?id:com.levelup.mobile",
-    },
-    {
         type:"picture",
         picture:"edgeMotors",
         title:"Edge Motors Car Museum",
@@ -30,6 +19,17 @@ const finishedProjects = [
         code:"https://github.com/jcsmileyjr/BlackJack",
         demo:"https://jcsmileyjr.github.io/BlackJack/",
     },
+    {
+        type:"video",
+        picture:"LevelUpDev",
+        title:"Level Up Dev",
+        description:"Mobile app to help developers plan their goals, milestones, and view successes.",
+        tech1:"reactNative",
+        tech2:"html",
+        tech3:"bootstrap",
+        code:"https://github.com/jcsmileyjr/LevelUp",
+        demo:"https://play.google.com/store/apps/details?id:com.levelup.mobile",
+    },    
     {
         type:"picture",
         picture:"activeCases",

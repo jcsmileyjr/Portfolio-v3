@@ -95,7 +95,7 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
         
         {        
           finishedProjects
-            .filter((project, id) => {
+            .filter((project) => {
               return showTechnologyOption === "All" || showTechnologyOption === project.tech1 || showTechnologyOption === project.tech2
             })
             .map((project, id) => {

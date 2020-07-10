@@ -10,9 +10,7 @@ const Project = (props) => {
 		<Col xs={12} sm={12} md={12} lg={4} className="project-container">
 			<section className="data-container">
 				{props.type ==="video" &&
-					<video className="video-style" controls autoPlay={true}>
-						<source src={props.picture} type="video/mp4" />
-					</video>
+					<video src={props.picture} className="video-style" controls autoPlay={true} />
 				}
 				{props.type ==="picture" &&
 					<Image src={props.picture} className="img-fluid image-white-space" responsive= "true" />
