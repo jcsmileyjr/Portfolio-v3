@@ -1,11 +1,3 @@
-/*
-import LevelUpDev from "../assets/project-images/level-up-dev.mp4";
-import edgeMotors from "../assets/project-images/edge-motors.jpg";
-import blackjack from "../assets/project-images/black-jack.mp4";
-import activeCases from "../assets/project-images/active-cases.png";
-import monster from "../assets/project-images/monster.png";
-import agentPedia from "../assets/project-images/agent-pedia.png";
-*/
 const finishedProjects = [
     {
         type:"video",

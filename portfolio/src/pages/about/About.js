@@ -54,7 +54,7 @@ const About = () => {
               Magnolia.js, and Free Code Camp Lockdown Conf.
             </p>
             <p>
-              In 2019, I attended my first physical conferencs: Changing the
+              In 2019, I attended my first physical Conference: Changing the
               Color of Tech Memphis and SQLSaturday Memphis.
             </p>
           </section>
@@ -92,7 +92,7 @@ const About = () => {
             </ul>
           </section>
           <section>
-            <h3 className="page-title">Non-tech Related</h3>
+            <h3 className="page-title">Non-tech Related Passions</h3>
             <div className="page-title multiple-images">
               <Image src={Hike} className="image-style" />
               <Image src={BikeRide} className="image-style" />
