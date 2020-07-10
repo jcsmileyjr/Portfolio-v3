@@ -19,24 +19,28 @@ const Header = () => {
         >
           <Nav>
             <Nav.Item className="nav-links-container-style">
-              <Nav.Link className="nav-links-text-style">
-                <Link to="/" className="link-style">Projects</Link>
-              </Nav.Link>
+              <Link to="/" className="link-style">
+                Projects
+              </Link>
             </Nav.Item>
             <Nav.Item className="nav-links-container-style">
-              <Nav.Link className="nav-links-text-style">
-                <Link to="/about" className="link-style">About</Link>
-              </Nav.Link>
+              <Link to="/about" className="link-style">
+                About
+              </Link>
             </Nav.Item>
             <Nav.Item className="nav-links-container-style">
-              <Nav.Link className="nav-links-text-style">
-                <Link to="/blog" className="link-style">Blogs</Link>
-              </Nav.Link>
+              <Link to="/blog" className="link-style">
+                Blogs
+              </Link>
             </Nav.Item>
             <Nav.Item className="nav-links-container-style">
-              <Nav.Link className="nav-links-text-style">
-                DownLoad Resume
-              </Nav.Link>
+              <a
+                href="../../assets/personal/jcsmileyjr-resume.pdf"
+                download
+                className="link-style"
+              >
+                Download Resume
+              </a>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
