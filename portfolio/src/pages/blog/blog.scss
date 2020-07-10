@@ -1,3 +1,5 @@
+@import '../../App';/*import global CSS styles*/
+
 .center-content {
   text-align: center;
 }
@@ -9,10 +11,14 @@
 .post-container {
   border: 1px solid rgb(214, 214, 214);
   margin-bottom: 10px;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: $primary-light-blue-color;
 }
 
 .blog-title {
   font-size: 1.2rem;
+  margin-top: 5px;
 }
 
 /* media queries */
