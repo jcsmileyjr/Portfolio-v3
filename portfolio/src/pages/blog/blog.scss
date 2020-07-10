@@ -1,15 +1,24 @@
 .center-content {
-    text-align: center;
+  text-align: center;
 }
 
 .page-title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .post-container {
-    border: 1px solid rgb(214, 214, 214);
+  border: 1px solid rgb(214, 214, 214);
+  margin-bottom: 10px;
 }
 
 .blog-title {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+}
+
+/* media queries */
+@media (max-width: 450px) {
+  .post-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }

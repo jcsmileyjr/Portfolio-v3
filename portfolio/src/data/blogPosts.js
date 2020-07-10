@@ -32,6 +32,21 @@ const post = [
         content:"This is a stupidly simple short guide full of pictures to create and start a Node web service with an Express API. This is the first article in a series using Node, Express, MongoDB, and React to teach the process of creating a simple full stack application.",
         link:"https://medium.com/codeconnective/a-simple-guide-to-node-express-1986a9904d63?source=friends_link&sk=3cf75bf7adf93ddb04be07db07be199f",
     },
+    {
+        title:"What I Learned From a Single Lesson using Exercism.io",
+        content:"What is exercism.io? It’s a website that allows users to practice coding in a huge variety of programming languages for free. What makes it fantastic is mentors review your code and make suggestions for improvements. This is beneficial for aspiring beginners or self-taught developers, like myself, to learn how to write good code and use good coding practices.",
+        link:"https://medium.com/codeconnective/exercism-io-what-i-learn-from-a-mentor-in-one-lesson-9a56e5a0e042",
+    },
+    {
+        title:"What app should I build",
+        content:"At a past Code Connector tech meetup, I was asked for advice from an aspiring developer on what to build. This developer had a passion building apps, but didn’t know how to start things up from scratch. How do you build a Facebook or Uber by yourself and at the beginning of your career? How many versions of to-do lists, Twitter clones, or calculators can you build? In that moment, I gave that developer a short suggestion. This article is what I would have said if I had given it more thought.",
+        link:"https://medium.com/codeconnective/what-app-should-i-build-90df747fe603",
+    },
+    {
+        title:"Hackathons are rewarding experiences",
+        content:"I went in with the goal of learning something new, to network with other programmers, and to build something that will help others. I came out with a new perspective on how programming can help the community.",
+        link:"https://medium.com/codeconnective/hackathons-are-rewarding-experiences-ae3bd4d56d0d",
+    },
 ];
 
 export default post;
