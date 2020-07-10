@@ -1,16 +1,5 @@
 const finishedProjects = [
     {
-        type:"video",
-        picture:"LevelUpDev",
-        title:"Level Up Dev",
-        description:"Mobile app to help developers plan their goals, milestones, and view successes.",
-        tech1:"reactNative",
-        tech2:"html",
-        tech3:"bootstrap",
-        code:"https://github.com/jcsmileyjr/LevelUp",
-        demo:"https://play.google.com/store/apps/details?id:com.levelup.mobile",
-    },
-    {
         type:"picture",
         picture:"edgeMotors",
         title:"Edge Motors Car Museum",
@@ -30,6 +19,17 @@ const finishedProjects = [
         code:"https://github.com/jcsmileyjr/BlackJack",
         demo:"https://jcsmileyjr.github.io/BlackJack/",
     },
+    {
+        type:"video",
+        picture:"LevelUpDev",
+        title:"Level Up Dev",
+        description:"Mobile app to help developers plan their goals, milestones, and view successes.",
+        tech1:"reactNative",
+        tech2:"html",
+        tech3:"bootstrap",
+        code:"https://github.com/jcsmileyjr/LevelUp",
+        demo:"https://play.google.com/store/apps/details?id:com.levelup.mobile",
+    },    
     {
         type:"picture",
         picture:"activeCases",
@@ -73,7 +73,18 @@ const finishedProjects = [
         tech3:"bootstrap",
         code:"https://github.com/jcsmileyjr/BikeRide",
         demo:"https://expo.io/@jcsmileyjr/bike-ride",
-    }    
+    },
+    {
+        type:"video",
+        picture:"meetup",
+        title:"Code Connector Chrome Extension",
+        description:"The purpose is to display upcoming Code Connector tech meetups. There is currently three virtual meetups a month.",
+        tech1:"react",
+        tech2:"html",
+        tech3:"css",
+        code:"https://github.com/jcsmileyjr/Code-Connector-Chrome-Extension",
+        demo:"https://www.notion.so/Code-Connector-Meetup-Google-Chrome-Extension-3815d08abcfe43118727f967f83899ac",
+    }        
 ];
 
 export default finishedProjects;

@@ -18,6 +18,13 @@
 	text-align: center;/*center the nav links when the navbar is collaspe*/
 }
 
+/* media queries */
+@media (min-width: 767px) {
+	.nav-links-container-style {
+		margin-left: 15px;
+	}
+}
+
 .link-style {
 	color: white;
 }
