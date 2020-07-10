@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "./blog.scss";
-import Hike from '../../assets/about/hike.jpg';
+import blogs from "../../data/blogPosts.js";
 
 const Blog = () => {
   return (
@@ -11,16 +11,19 @@ const Blog = () => {
           <h1>Blogs and Articles</h1>
         </Col>
       </Row>
-      <Row>
-        <Col></Col>
-        <Col>
-          <h3>Hello Universe</h3>
-          <Image src={Hike} />
-          <p>fdsfsf</p>
-          <a href="www.google.com" >Hello World</a>
-        </Col>
-        <Col></Col>
-      </Row>
+      {blogs.map((blog, id) => {
+        return (
+          <Row>
+            <Col></Col>
+            <Col sm="auto" className="post-container">
+              <h3 className="center-content">{blog.title}</h3>
+              <p>{blog.content} <a href={blog.link}>Click here to read the rest of the Article</a></p>
+              
+            </Col>
+            <Col></Col>
+          </Row>
+        );
+      })}
     </Container>
   );
 };
