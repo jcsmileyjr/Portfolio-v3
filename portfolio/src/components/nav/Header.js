@@ -30,12 +30,12 @@ const Header = () => {
             </Nav.Item>
             <Nav.Item className="nav-links-container-style">
               <Nav.Link className="nav-links-text-style">
-                DownLoad Resume
+                <Link to="/blog" className="link-style">Blogs</Link>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="nav-links-container-style">
               <Nav.Link className="nav-links-text-style">
-                <Link to="/blog" className="link-style">Blogs</Link>
+                DownLoad Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>

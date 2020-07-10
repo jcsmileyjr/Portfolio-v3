@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import "./blog.scss";
 import blogs from "../../data/blogPosts.js";
 
@@ -13,12 +13,11 @@ const Blog = () => {
       </Row>
       {blogs.map((blog, id) => {
         return (
-          <Row>
+          <Row key={id}>
             <Col></Col>
             <Col sm="auto" className="post-container">
-              <h3 className="center-content">{blog.title}</h3>
-              <p>{blog.content} <a href={blog.link}>Click here to read the rest of the Article</a></p>
-              
+              <h3 className="center-content blog-title">{blog.title}</h3>
+              <p>{blog.content} <a href={blog.link}>Click here to read the rest of the Article</a></p>              
             </Col>
             <Col></Col>
           </Row>
