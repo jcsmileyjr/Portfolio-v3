@@ -30,7 +30,6 @@ const finishedProjects = [
         code:"https://github.com/jcsmileyjr/LevelUp",
         demo:"https://play.google.com/store/apps/details?id:com.levelup.mobile",
     },
-    ,
     {
         type:"video",
         picture:"bikeRide",
