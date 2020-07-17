@@ -1,11 +1,3 @@
-/**
-    {
-        title:"",
-        content:"",
-        link:"",
-    },
- */
-
 const post = [
     {
         title:"What are good developer habits?",
