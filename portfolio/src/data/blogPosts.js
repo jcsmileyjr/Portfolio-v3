@@ -9,7 +9,7 @@
 const post = [
     {
         title:"What are good developer habits?",
-        content:"Curated answers from the Code Connector community Slack channel to this question. Example: Communication skills like public speaking (demos), writing (technical pitches or design documents), and group conversation etiquette (inclusive communication) are really important. For example, it doesn’t matter how good you are at coding if you interrupt people in meetings so they don’t want to work with you.",
+        content:"Communication skills like public speaking (demos), writing (technical pitches or design documents), and group conversation etiquette (inclusive communication) are really important. For example, it doesn’t matter how good you are at coding if you interrupt people in meetings so they don’t want to work with you.",
         link:"https://dev.to/jcsmileyjr/what-are-good-developer-habits-2bfp",
     },
     {
@@ -19,7 +19,7 @@ const post = [
     },
     {
         title:"How do you stay inspired, motivated, and productive while living in a super active home?",
-        content:"Curated answers from the Code Connector community Slack channel to this question. Example: Realize some days will be more than others so try to adjust your estimations. Designate routine & area as much as possible. Shifting your hours to when no one is awake helps.",
+        content:"Realize some days will be more than others so try to adjust your estimations. Designate routine & area as much as possible. Shifting your hours to when no one is awake helps.",
         link:"https://dev.to/jcsmileyjr/how-do-you-stay-inspired-motivated-and-productive-while-living-in-a-super-active-home-13l7",
     },
     {
@@ -29,7 +29,7 @@ const post = [
     },
     {
         title:"How do you improve your programming skills?",
-        content:"Curated answers from the Code Connector community Slack channel to this question. Example: This all comes down to keys on the keyboard. Repeated practice is the mantra here and increased skill doesn't yield itself to any other shortcuts",
+        content:"This all comes down to keys on the keyboard. Repeated practice is the mantra here and increased skill doesn't yield itself to any other shortcuts",
         link:"https://dev.to/jcsmileyjr/how-do-you-improve-your-programming-skills-1dk0",
     },
     {
@@ -39,7 +39,7 @@ const post = [
     },
     {
         title:"Athletes train their physical abilities and their sports specific skills. How can developers do the same using that analogy?",
-        content:"Curated answers from the Code Connector community Slack channel to this question. Example: Athletes train hard to be able to handle any situation encountered in their sport. Therefore, in tech if we expose ourselves to many concepts, we will build a powerful arsenal of resources to handle any situation.",
+        content:"Athletes train hard to be able to handle any situation encountered in their sport. Therefore, in tech if we expose ourselves to many concepts, we will build a powerful arsenal of resources to handle any situation.",
         link:"https://dev.to/jcsmileyjr/athletes-train-their-physical-abilities-and-their-sports-specific-skills-how-can-developers-do-the-same-using-that-analogy-mbi",
     },
     {
@@ -69,7 +69,7 @@ const post = [
     },
     {
         title:"What are the challenges to getting a job in tech? If possible, share advice to overcome that challenge!",
-        content:"My biggest challenge is me. Mentality, focus, motivation, consistency, belief factor, etc. Advice: Do not give up.",
+        content:"Standing out among other beginners because you all have similar technical skills. Advice: Be able to tell your story and make friends in the tech community who can vouch for your technical skills.",
         link:"https://dev.to/jcsmileyjr/what-are-the-challenges-to-getting-a-job-in-tech-if-possible-share-advice-to-overcome-that-challenge-3n07",
     },
     {
