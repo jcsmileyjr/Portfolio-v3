@@ -28,7 +28,7 @@ const finishedProjects = [
         tech2:"html",
         tech3:"bootstrap",
         code:"https://github.com/jcsmileyjr/LevelUp",
-        demo:"https://play.google.com/store/apps/details?id:com.levelup.mobile",
+        demo:"https://play.google.com/store/apps/details?id=com.levelup.mobile",
     },
     {
         type:"video",
