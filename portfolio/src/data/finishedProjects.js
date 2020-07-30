@@ -28,7 +28,7 @@ const finishedProjects = [
         tech2:"html",
         tech3:"bootstrap",
         code:"https://github.com/jcsmileyjr/LevelUp",
-        demo:"https://play.google.com/store/apps/details?id:com.levelup.mobile",
+        demo:"https://play.google.com/store/apps/details?id=com.levelup.mobile",
     },
     {
         type:"video",
@@ -50,7 +50,7 @@ const finishedProjects = [
         tech2:"html",
         tech3:"css",
         code:"https://github.com/jcsmileyjr/Code-Connector-Chrome-Extension",
-        demo:"https://www.notion.so/Code-Connector-Meetup-Google-Chrome-Extension-3815d08abcfe43118727f967f83899ac",
+        demo:"https://chrome.google.com/webstore/detail/code-connector-meetups-ca/nonnkmloihklfojffnmkedkdeccdnhhf/related?hl=en",
     },     
     {
         type:"picture",
@@ -84,7 +84,18 @@ const finishedProjects = [
         tech3:"materializeCSS",
         code:"https://github.com/jcsmileyjr/agent-guide",
         demo:"https://jcsmileyjr.github.io/agent-guide/",
-    }       
+    },
+    {
+        type:"video",
+        picture:"question",
+        title:"Code Connector Question Submission ",
+        description:"Allow members of the tech non-profit group to submit quesitons to be posted in the morning on Slack.",
+        tech1:"react",
+        tech2:"html",
+        tech3:"css",
+        code:"https://github.com/jcsmileyjr/question-submission",
+        demo:"https://code-connector-question-submission.netlify.app/",
+    },            
 ];
 
 export default finishedProjects;

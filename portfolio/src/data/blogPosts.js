@@ -1,5 +1,10 @@
 const post = [
     {
+        title:"What steps do you need to take as an aspiring web developer in order to increase your chances of landing a job?",
+        content:"Self Promotion & Marketing. Most suggestions you'll get are about building portfolios, social media profiles, and resumes, but it doesn't do you any good if you dont promote yourself to the general public. This means producing content of some kind to demonstrate your knowledge and what you can provide to potential employers, because ultimately thats their goal. Some suggestions could be writing articles, creating videos, and live coding on Twitch or YouTube.",
+        link:"https://dev.to/jcsmileyjr/what-steps-do-you-need-to-take-as-an-aspiring-web-developer-in-order-to-increase-your-chances-of-landing-a-job-3ih5",
+    },
+    {
         title:"What are good developer habits?",
         content:"Communication skills like public speaking (demos), writing (technical pitches or design documents), and group conversation etiquette (inclusive communication) are really important. For example, it doesn’t matter how good you are at coding if you interrupt people in meetings so they don’t want to work with you.",
         link:"https://dev.to/jcsmileyjr/what-are-good-developer-habits-2bfp",

@@ -19,8 +19,9 @@ import monster from "../../assets/project-images/monster.png";
 import agentPedia from "../../assets/project-images/agent-pedia.png";
 import bikeRide from "../../assets/project-images/BikeRide.mp4";
 import meetup from "../../assets/project-images/meetup.mp4";
-const listOfImageNames =["LevelUpDev", "edgeMotors", "blackjack", "activeCases", "monster", "agentPedia","bikeRide", "meetup"];
-const listOfImages =[LevelUpDev, edgeMotors, blackjack, activeCases, monster, agentPedia, bikeRide, meetup];
+import question from '../../assets/project-images/question.mp4'
+const listOfImageNames =["LevelUpDev", "edgeMotors", "blackjack", "activeCases", "monster", "agentPedia","bikeRide", "meetup", "question"];
+const listOfImages =[LevelUpDev, edgeMotors, blackjack, activeCases, monster, agentPedia, bikeRide, meetup, question];
 
 const ProjectSection = () => {
 
