@@ -85,7 +85,7 @@ const Project = (props) => {
 					{props.code &&
 						<div className="project-links-container whitespace">
 							<a href={props.code}>GitHub</a>
-							<a href={props.demo}>Demo</a>
+							<a href={props.demo} target="_blank" rel="noopener noreferrer">Demo</a>
 						</div>
 					}
 

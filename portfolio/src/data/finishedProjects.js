@@ -17,7 +17,7 @@ const finishedProjects = [
         tech2:"html",
         tech3:"bootstrap",
         code:"https://github.com/jcsmileyjr/BlackJack",
-        demo:"https://jcsmileyjr.github.io/BlackJack/",
+        demo:"https://smiley-blackjack-game.netlify.app/",
     },
     {
         type:"video",
