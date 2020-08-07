@@ -12,7 +12,7 @@ const finishedProjects = [
         type:"video",
         picture:"blackjack",
         title:"Black-Jack",
-        description:"A traditional Black-Jack card game developed as a React web app.",
+        description:"A traditional Black-Jack card game developed as a full-stack React app.",
         tech1:"react",
         tech2:"html",
         tech3:"bootstrap",
