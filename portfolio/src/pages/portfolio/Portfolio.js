@@ -9,8 +9,8 @@ const Portfolio = () => {
 	return(
 		<Container fluid className="container-fluid">
 			<Row className="fixRow">
-				<Col sm={4} lg={3}><Skills /></Col>
-				<Col sm={8} lg={9}><ProjectSection /></Col>
+				<Col  lg={3}><Skills /></Col>
+				<Col  lg={9}><ProjectSection /></Col>
 			</Row>
 		</Container>
 	);

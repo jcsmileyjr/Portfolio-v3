@@ -40,7 +40,7 @@ const Skills = () => {
 			
 			<Row className="white-space-above">
 				{/*Skills: Languages */}
-				<Col xs={6} sm={{span:6,offset:3}} md={{span:9, offset:3}} className="white-space-below">
+				<Col xs={6} md={{span:3, offset:3}}  lg={{span:9, offset:3}} className="white-space-below">
 					<h5>Languages</h5>
 					{
 						languages.map((language, id) => {
@@ -51,7 +51,7 @@ const Skills = () => {
 					}
 				</Col>
 				{/*Skills: Frameworks */}
-				<Col xs={6} sm={{span:6,offset:3}} md={{span:9, offset:3}} className="">
+				<Col xs={6}  lg={{span:9, offset:3}} className="">
 					<h5>Framework</h5>
 					{
 						frameworks.map((framework, id) => {
