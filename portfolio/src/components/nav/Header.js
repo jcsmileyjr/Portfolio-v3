@@ -2,16 +2,28 @@ import React from "react";
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./header.scss";
-
 import coderBoy from "../../assets/personal/africanmanpc.png";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faLinkedinIn, faTwitter, faGithub, faDev} from '@fortawesome/free-brands-svg-icons'
 const Header = () => {
   return (
     <Container fluid className="nav-container">
       <Navbar collapseOnSelect expand="md">
-        <Navbar.Brand>
+        <Navbar>
           <Image src={coderBoy} fluid className="logo" />
-        </Navbar.Brand>
+          <a href="https://www.linkedin.com/in/jcsmileyjr/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon className="social-media-icons" icon={faLinkedinIn} />
+          </a>
+          <a href="https://twitter.com/JCSmiley4" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon className="social-media-icons" icon={faTwitter} />
+          </a>
+          <a href="https://github.com/jcsmileyjr" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon className="social-media-icons" icon={faGithub} />
+          </a>
+          <a href="https://dev.to/jcsmileyjr" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon className="social-media-icons" icon={faDev} />
+          </a>
+        </Navbar>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse
           className="justify-content-end nav-links"
