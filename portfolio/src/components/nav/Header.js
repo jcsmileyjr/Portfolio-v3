@@ -3,6 +3,7 @@ import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./header.scss";
 import coderBoy from "../../assets/personal/africanmanpc.png";
+import resume from '../../assets/personal/jcsmileyjr-resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn, faTwitter, faGithub, faDev} from '@fortawesome/free-brands-svg-icons'
 const Header = () => {
@@ -47,7 +48,7 @@ const Header = () => {
             </Nav.Item>
             <Nav.Item className="nav-links-container-style">
               <a
-                href="../../assets/personal/jcsmileyjr-resume.pdf"
+                href={resume}
                 download
                 className="link-style"
               >
