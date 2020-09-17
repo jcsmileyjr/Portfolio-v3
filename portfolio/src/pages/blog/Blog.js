@@ -13,7 +13,7 @@ const Blog = () => {
       </Row>
       <Row>
         <Col className="left-align-content page-title">
-          <p>Read my technical articles and follow me on Medium.com at <a href="https://medium.com/@jcsmileyjr">https://medium.com/@jcsmileyjr</a>. I have lots of blog posts using a question and answer format on Dev.to at <a href="https://dev.to/jcsmileyjr" > https://dev.to/jcsmileyjr </a></p>
+          <p>The majority of my blog posts follow a question and answer format on Dev.to at <a href="https://dev.to/jcsmileyjr" > https://dev.to/jcsmileyjr </a>. Read my technical articles and follow me on Medium.com at <a href="https://medium.com/@jcsmileyjr">https://medium.com/@jcsmileyjr</a>. </p>
         </Col>
       </Row>
       {blogs.map((blog, id) => {

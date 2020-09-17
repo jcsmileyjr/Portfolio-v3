@@ -10,6 +10,11 @@ const post = [
         link:"https://dev.to/jcsmileyjr/what-are-good-developer-habits-2bfp",
     },
     {
+        title:"Startup Life: Organized Chaos or just Chaotic",
+        content:"I want to take a moment to talk about the early part of my experience of working in a startup. This includes what I learned, the challenges I faced, and what I would do over. I read somewhere that the startup life is one of two things: Organized chaos or just chaotic",
+        link:"https://dev.to/jcsmileyjr/startup-life-organized-chaos-or-just-chaotic-34gd",
+    },    
+    {
         title:"Learning new skills while breaking into tech",
         content:"I have been trying to get into tech for a long time and have made every classic mistake possible. I hope by reading this, you can avoid these painful mistakes and get into the tech industry faster.",
         link:"https://medium.com/codeconnective/learning-new-skills-while-breaking-into-tech-b8793f61a1c2?source=friends_link&sk=df5c9187686a2c0dcc0e59bb9773e925",
@@ -23,6 +28,11 @@ const post = [
         title:"What is a RESTful API",
         content:"RESTful API is a way for a client (website, mobile app, etc.) to communicate to a web service regarding a resource (data, picture, web page, etc.). An example of this is when you use Google search. You will type in a parameter instructing Google to retrieve and display data for you to view. This article will explain what RESTful API is and how it is commonly used. You can read a brief guide to creating an API with Node and Express in the article A Simple Guide to Node/Express.",
         link:"https://medium.com/codeconnective/what-is-a-restful-api-930671cdd713?source=friends_link&sk=3019c9cd263b72ee75964df33e2b4ebd",
+    },
+    {
+        title:"Tips on planning your career path?",
+        content:"To have a successful career you must prepare yourself by considering what is the next position or area of interest. Then you must work toward gaining the skills, experiences, or knowledge to make that career change into a reality.",
+        link:"https://dev.to/jcsmileyjr/tips-on-planning-your-career-path-dg3",
     },
     {
         title:"How do you improve your programming skills?",
