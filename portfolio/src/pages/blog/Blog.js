@@ -22,7 +22,7 @@ const Blog = () => {
             <Col></Col>
             <Col sm="auto" className="post-container">
               <h3 className="center-content blog-title">{blog.title}</h3>
-              <p>{blog.content} <a href={blog.link}>Click here to read the rest of the Article</a></p>              
+              <p>{blog.content} <a href={blog.link} target="_blank" rel="noopener noreferrer">Click here to read the rest of the Article</a></p>              
             </Col>
             <Col></Col>
           </Row>
