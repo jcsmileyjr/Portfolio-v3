@@ -1,5 +1,10 @@
 const post = [
     {
+        title:"Tips for Writing a Great Resume",
+        content:"I attended an amazing “Resume Workshop” meetup with speakers Danny Thompson, James Quick, RJ Beers, and Steve Hallman. The professional insights they shared was invaluable and touched on every area of a successful resume. The following is a narrated version of my notes.",
+        link:"https://dev.to/jcsmileyjr/tips-for-writing-a-great-resume-1kjj",
+    },
+    {
         title:"What steps do you need to take as an aspiring web developer in order to increase your chances of landing a job?",
         content:"Self Promotion & Marketing. Most suggestions you'll get are about building portfolios, social media profiles, and resumes, but it doesn't do you any good if you dont promote yourself to the general public. This means producing content of some kind to demonstrate your knowledge and what you can provide to potential employers, because ultimately thats their goal. Some suggestions could be writing articles, creating videos, and live coding on Twitch or YouTube.",
         link:"https://dev.to/jcsmileyjr/what-steps-do-you-need-to-take-as-an-aspiring-web-developer-in-order-to-increase-your-chances-of-landing-a-job-3ih5",
