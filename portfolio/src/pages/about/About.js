@@ -25,7 +25,7 @@ const About = () => {
             the North Mississippi chapter in 2019. As the online community manager 
             for the overall organization, my duties are to stimulate conversation 
             and content within our online Slack community which consists of over 
-            500 members.  On a monthly basis, I help host up to three physical 
+            700 members.  On a monthly basis, I help host up to seven physical 
             or virtual tech meetups a month in Memphis, TN.
             </p>
             <p>
