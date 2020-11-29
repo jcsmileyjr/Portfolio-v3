@@ -10,6 +10,16 @@ const post = [
         link:"https://dev.to/jcsmileyjr/what-steps-do-you-need-to-take-as-an-aspiring-web-developer-in-order-to-increase-your-chances-of-landing-a-job-3ih5",
     },
     {
+        title:"8 Tips for Learning to Code Deliberately & Increasing the Code Quality",
+        content:"Tips from my local tech community on how to code deliberately and how to increase the quality of my code. This includes coding daily and with intent, learning how you learn, getting your code review and more. ",
+        link:"https://dev.to/jcsmileyjr/8-tips-for-learning-to-code-deliberately-increasing-the-code-quality-46hb",
+    },
+    {
+        title:"15 Important tips about Mentorship",
+        content:"There is a reason why high performance athletes and successful business leaders always have coaches and mentors. The shortest path from struggling to being productive is advice from someone who has been where you are going. These successful individuals seek out help early and often because they recognize the value of mentorship.",
+        link:"https://dev.to/jcsmileyjr/15-important-tips-about-mentorship-502f",
+    },
+    {
         title:"What are good developer habits?",
         content:"Communication skills like public speaking (demos), writing (technical pitches or design documents), and group conversation etiquette (inclusive communication) are really important. For example, it doesn’t matter how good you are at coding if you interrupt people in meetings so they don’t want to work with you.",
         link:"https://dev.to/jcsmileyjr/what-are-good-developer-habits-2bfp",
