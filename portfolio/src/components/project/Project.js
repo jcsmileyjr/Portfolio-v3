@@ -68,12 +68,19 @@ const Project = (props) => {
 						</section>
 					}
 
-					{(props.tech1 === "angular" || props.tech2 ==="angular" || props.tech3 ==="angular") && 
+					{(props.tech1 === "angularjs" || props.tech2 ==="angularjs" || props.tech3 ==="angularjs") && 
 						<section className="tech-image-style">
 							<FontAwesomeIcon className="redIcon" icon={faAngular} />
 							<p className="smallerFont">AngularJS</p>
 						</section>
 					}
+
+					{(props.tech1 === "angular" || props.tech2 ==="angular" || props.tech3 ==="angular") && 
+						<section className="tech-image-style">
+							<FontAwesomeIcon className="redIcon" icon={faAngular} />
+							<p className="smallerFont">Angular</p>
+						</section>
+					}					
 
 					{(props.tech1 === "materializeCSS" || props.tech2 ==="materializeCSS" || props.tech3 ==="materializeCSS") && 
 						<section className="tech-image-style">

@@ -19,9 +19,10 @@ import monster from "../../assets/project-images/monster.png";
 import agentPedia from "../../assets/project-images/agent-pedia.png";
 import bikeRide from "../../assets/project-images/BikeRide.mp4";
 import meetup from "../../assets/project-images/meetup.mp4";
-import question from '../../assets/project-images/question.mp4'
-const listOfImageNames =["LevelUpDev", "edgeMotors", "blackjack", "activeCases", "monster", "agentPedia","bikeRide", "meetup", "question"];
-const listOfImages =[LevelUpDev, edgeMotors, blackjack, activeCases, monster, agentPedia, bikeRide, meetup, question];
+import question from '../../assets/project-images/question.mp4';
+import helpMe from '../../assets/project-images/helpMe.PNG';
+const listOfImageNames =["LevelUpDev", "edgeMotors", "blackjack", "activeCases", "monster", "agentPedia","bikeRide", "meetup", "question", "helpMe"];
+const listOfImages =[LevelUpDev, edgeMotors, blackjack, activeCases, monster, agentPedia, bikeRide, meetup, question, helpMe];
 
 const ProjectSection = () => {
 
@@ -67,7 +68,7 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
             value="AngularJS"
             className="space-Between-Radio-Buttons"
             variant="outline-primary"
-            onClick = {()=> {setTechnologyOption("angular")}}
+            onClick = {()=> {setTechnologyOption("angularjs")}}
           >
             AngularJS
           </ToggleButton>          
@@ -90,6 +91,16 @@ const [showTechnologyOption, setTechnologyOption] = useState("All");
             onClick = {()=> {setTechnologyOption("reactNative")}}
           >
             React Native (mobile)
+          </ToggleButton>
+          <ToggleButton
+            type="radio"
+            name="technologyType"
+            value="Angular"
+            className="space-Between-Radio-Buttons"
+            variant="outline-primary"
+            onClick = {()=> {setTechnologyOption("angular")}}
+          >
+            Angular
           </ToggleButton>
         </ToggleButtonGroup>
       </Row>
