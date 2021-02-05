@@ -6,6 +6,7 @@ import CCMeetupPic from "../../assets/about/code-connector-group.jpg";
 import LookOut from "../../assets/about/smartCityLookOut.jpg";
 import Hike from "../../assets/about/hike.jpg";
 import BikeRide from "../../assets/about/bike-ride.jpg";
+import HelpMeTablet from "../../assets/about/help-me-tablet.PNG"
 
 const About = () => {
   return (
@@ -14,6 +15,22 @@ const About = () => {
         <Col xs={0} md={3}></Col>
         <Col xs={12} md={6}>
           <h1 className="page-title">Who is JC Smiley?</h1>
+          <section>
+          <h3 className="page-title">Hackathon Winner</h3>
+            <div className="page-title">
+              <Image src={HelpMeTablet} className="image-style" />
+            </div>
+            <p>
+            On January 10, 2021, a friend and I submitted a mental health crisis app to the DigitalOcean 2021 App Hackathon. 
+            To our surprise, out of 4 categories and 600 teams, we won the grand prize in the “Power to the People” category. 
+            My greatest joy is that I helped create something that supports my friends and family who struggle with mental health issues.
+            </p>
+            <p>
+            The app is called “Help Me” and is designed primarily as an “SOS” (distress signal) to a selected circle of trusted people 
+            when someone is going through a mental health crisis. The goal is for the user to build a trusted community around themselves 
+            with private conversations and provide a system to show the user's range of emotions.
+            </p>
+          </section>
           <section>
             <h3 className="page-title">Active in the Tech Community</h3>
             <div className="page-title">
