@@ -25,6 +25,11 @@ const post = [
         link:"https://dev.to/jcsmileyjr/what-are-good-developer-habits-2bfp",
     },
     {
+        title:"Help Me, a mental health crisis app",
+        content:"The app is called “Help Me” and is designed primarily as an “SOS” (distress signal) to a selected circle of trusted people.",
+        link:"https://https://dev.to/jcsmileyjr/help-me-a-mental-health-crisis-app-4jhi",
+    },
+    {
         title:"Startup Life: Organized Chaos or just Chaotic",
         content:"I want to take a moment to talk about the early part of my experience of working in a startup. This includes what I learned, the challenges I faced, and what I would do over. I read somewhere that the startup life is one of two things: Organized chaos or just chaotic",
         link:"https://dev.to/jcsmileyjr/startup-life-organized-chaos-or-just-chaotic-34gd",
