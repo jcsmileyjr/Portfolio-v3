@@ -6,6 +6,7 @@ import Header from './components/nav/Header';
 import Portfolio from './pages/portfolio/Portfolio.js';
 import About from './pages/about/About.js';
 import Blog from './pages/blog/Blog.js';
+import Talks from './pages/talks/Talks.js'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" render={props => <Portfolio />} />
         <Route path="/about" render={props => <About />} />
         <Route path="/blog" render={props => <Blog />} />
+        <Route path="/talks" render={props => <Talks />} />
       </div>
     </Router>
   );
