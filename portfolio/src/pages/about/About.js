@@ -30,6 +30,7 @@ const About = () => {
             when someone is going through a mental health crisis. The goal is for the user to build a trusted community around themselves 
             with private conversations and provide a system to show the user's range of emotions.
             </p>
+            <hr></hr>
           </section>
           <section>
             <h3 className="page-title">Active in the Tech Community</h3>
@@ -55,6 +56,7 @@ const About = () => {
             Memphis, TN has a growing tech community and meetups for every technology and 
             interest. I regularly attend DevMemphis, Memphis Web Workers, and GDGMemphis.
             </p>
+            <hr></hr>
           </section>
 
           <section>
@@ -71,6 +73,7 @@ const About = () => {
               In 2019, I attended my first physical Conference: Changing the
               Color of Tech in Memphis. Later that year I attended a SQLSaturday Memphis conference.
             </p>
+            <hr></hr>
           </section>
 
           <section>
@@ -100,6 +103,7 @@ const About = () => {
               a video recording app that uses machine learning to compare a picture of a person posing to the user’s pose.
               </li>
             </ul>
+            <hr></hr>
           </section>
           <section>
             <h3 className="page-title">Non-tech Related Passions</h3>
