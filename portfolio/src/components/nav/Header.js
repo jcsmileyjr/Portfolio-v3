@@ -47,6 +47,9 @@ const Header = () => {
               </Link>
             </Nav.Item>
             <Nav.Item className="nav-links-container-style">
+                <a href="https://gumroad.com/l/breakingIntoTech" target="_blank" rel="noopener noreferrer" className="link-style">E-Book</a>
+            </Nav.Item>
+            <Nav.Item className="nav-links-container-style">
               <a
                 href={resume}
                 download
