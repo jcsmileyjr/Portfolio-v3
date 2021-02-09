@@ -11,13 +11,13 @@ const Talks = () => {
           <h1 className="center-item">Technical Talks</h1>
           <section className="center-item">
             <h3 className="center-item page-title">Help Me: A Behind The Scenes look at winning the Digital Ocean hackathon by JC Smiley</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/CVrkP9AhSOk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Behind The Scenes of the winning hackaton app" width="560" height="315" src="https://www.youtube.com/embed/CVrkP9AhSOk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <hr></hr>
           </section>
 
           <section className="center-item">
             <h3 className="center-item page-title">Project Development: A Farmer's Guide from Sprout to Sweet Potato Pie</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/PsrLIrMcVDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Tips on project management" width="560" height="315" src="https://www.youtube.com/embed/PsrLIrMcVDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </section>          
 
         </Col>
